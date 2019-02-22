@@ -15,23 +15,27 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bomb Numbers", "Bomb Number
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Append Arrays", "Append Arrays\Append Arrays.csproj", "{C73BCD94-25DC-46E5-99F9-950DC322B332}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gauss' Trick", "Gauss' Trick\Gauss' Trick.csproj", "{B5E9B6B0-EAB4-4CA8-90B5-687A878ACAFF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Gauss' Trick", "Gauss' Trick\Gauss' Trick.csproj", "{B5E9B6B0-EAB4-4CA8-90B5-687A878ACAFF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "List Manipulation Advanced", "List Manipulation Advanced\List Manipulation Advanced.csproj", "{D72C0EF4-53AB-4DFF-AB76-BD1803055086}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "List Manipulation Advanced", "List Manipulation Advanced\List Manipulation Advanced.csproj", "{D72C0EF4-53AB-4DFF-AB76-BD1803055086}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "List Manipulation Basics", "List Manipulation Basics\List Manipulation Basics.csproj", "{4227CD6E-0A4D-48D5-A1C6-E959576E26F8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "List Manipulation Basics", "List Manipulation Basics\List Manipulation Basics.csproj", "{4227CD6E-0A4D-48D5-A1C6-E959576E26F8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "List of Products", "List of Products\List of Products.csproj", "{7B6ED55E-2830-4DC8-B82E-F722E62DA596}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "List of Products", "List of Products\List of Products.csproj", "{7B6ED55E-2830-4DC8-B82E-F722E62DA596}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Merging Lists", "Merging Lists\Merging Lists.csproj", "{6A86573F-D8F0-4EE5-BC3F-666235DD3610}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Merging Lists", "Merging Lists\Merging Lists.csproj", "{6A86573F-D8F0-4EE5-BC3F-666235DD3610}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Remove Negatives and Reverse", "Remove Negatives and Reverse\Remove Negatives and Reverse.csproj", "{4BC1FD74-F6D4-4771-88E0-5F90E80C0A5B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Remove Negatives and Reverse", "Remove Negatives and Reverse\Remove Negatives and Reverse.csproj", "{4BC1FD74-F6D4-4771-88E0-5F90E80C0A5B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sum Adjacent Equal Numbers", "Sum Adjacent Equal Numbers\Sum Adjacent Equal Numbers.csproj", "{0DB4FAFE-08B1-499C-82A7-8D436D640445}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sum Adjacent Equal Numbers", "Sum Adjacent Equal Numbers\Sum Adjacent Equal Numbers.csproj", "{0DB4FAFE-08B1-499C-82A7-8D436D640445}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Messaging", "Messaging\Messaging.csproj", "{628993A8-564D-4BC1-A11C-040F9CF7DF77}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Messaging", "Messaging\Messaging.csproj", "{628993A8-564D-4BC1-A11C-040F9CF7DF77}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Car Race", "Car Race\Car Race.csproj", "{F5D9C689-ED3E-4414-8E2F-A0608FCAA1B4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Car Race", "Car Race\Car Race.csproj", "{F5D9C689-ED3E-4414-8E2F-A0608FCAA1B4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Take-Skip Rope", "Take-Skip Rope\Take-Skip Rope.csproj", "{BD1264D4-B621-4424-B959-7422040C0197}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mixed up Lists", "Mixed up Lists\Mixed up Lists.csproj", "{4C9FE142-45DB-4A1C-928D-01AED9C65559}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -99,6 +103,14 @@ Global
 		{F5D9C689-ED3E-4414-8E2F-A0608FCAA1B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F5D9C689-ED3E-4414-8E2F-A0608FCAA1B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F5D9C689-ED3E-4414-8E2F-A0608FCAA1B4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BD1264D4-B621-4424-B959-7422040C0197}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD1264D4-B621-4424-B959-7422040C0197}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD1264D4-B621-4424-B959-7422040C0197}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD1264D4-B621-4424-B959-7422040C0197}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C9FE142-45DB-4A1C-928D-01AED9C65559}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C9FE142-45DB-4A1C-928D-01AED9C65559}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C9FE142-45DB-4A1C-928D-01AED9C65559}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C9FE142-45DB-4A1C-928D-01AED9C65559}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
