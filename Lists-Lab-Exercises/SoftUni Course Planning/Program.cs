@@ -17,7 +17,7 @@ namespace SoftUni_Course_Planning
                 {
                     for (int i = 0; i < schedule.Count; i++)
                     {
-                        Console.WriteLine($"{i+1}.{schedule[i]}");
+                        Console.WriteLine($"{i + 1}.{schedule[i]}");
                     }
                     break;
                 }
@@ -38,52 +38,80 @@ namespace SoftUni_Course_Planning
                 else if (input[0] == "Remove")
                 {
                     schedule.Remove(input[1]);
-                    schedule.Remove(input[1]+"-Exercises");
+                    schedule.Remove(input[1] + "-Exercise");
                 }
                 else if (input[0] == "Exercise")
                 {
-                    if (schedule.Contains(input[0]) && !schedule.Contains(input[0]+"-Exercises"))
+                    if (schedule.Contains(input[1]) && !schedule.Contains(input[1] + "-Exercise"))
                     {
-                        schedule.Insert(schedule.FindIndex(n => n == input[0]), input[0] + "-Exercises");
+                        schedule.Insert(schedule.FindIndex(n => n == input[1])+1, input[1] + "-Exercise");
                     }
-                    else if (!schedule.Contains(input[0]) && !schedule.Contains(input[0] + "-Exercises"))
+                    else if (!schedule.Contains(input[1]) && !schedule.Contains(input[1] + "-Exercise"))
                     {
                         schedule.Add(input[1]);
-                        schedule.Add(input[1] + "-Exercises");
+                        schedule.Add(input[1] + "-Exercise");
                     }
                 }
                 else if (input[0] == "Swap")
                 {
-                    if (schedule.Contains(input[1]) 
-                            && schedule.Contains(input[2])
-                                && !schedule.Contains(input[1]+"-Exercises")
-                                    && !schedule.Contains(input[2] + "-Exercises"))
+                    if (schedule.Contains(input[1]) && schedule.Contains(input[2]))
                     {
-                        int firstLesonIndex = schedule.FindIndex(n => n == input[1]);
-                        int secondLesonIndex = schedule.FindIndex(n => n == input[2]);
-                        string swapFirst = schedule[firstLesonIndex];
-                        string swapSecond = schedule[secondLesonIndex];
+                        int firstIndex = schedule.FindIndex(n => n == input[1]);
+                        int secondIndex = schedule.FindIndex(n => n == input[2]);
 
-                        schedule[firstLesonIndex] = swapSecond;
-                        schedule[secondLesonIndex] = swapFirst;
-                    }
-                    else if (schedule.Contains(input[1])
-                            && schedule.Contains(input[2])
-                                && schedule.Contains(input[1] + "-Exercises")
-                                    && !schedule.Contains(input[2] + "-Exercises"))
-                    {
-                        int firstLesonIndex = schedule.FindIndex(n => n == input[1]);
-                        int secondLesonIndex = schedule.FindIndex(n => n == input[2]);
-                        string swapFirst = schedule[firstLesonIndex];
-                        string swapSecond = schedule[secondLesonIndex];
+                        if (!schedule.Contains(input[1] + "-Exercise") && !schedule.Contains(input[2] + "-Exercise"))
+                        {
+                            Swap(firstIndex, secondIndex, schedule);
+                        }
+                        else if (schedule.Contains(input[1] + "-Exercise") && schedule.Contains(input[2] + "-Exercise"))
+                        {
+                            Swap(firstIndex, secondIndex, schedule);
+                            Swap(firstIndex + 1, secondIndex + 1, schedule);
 
-                        schedule[firstLesonIndex] = swapSecond;
-                        schedule.RemoveAt(firstLesonIndex + 1);
-                        schedule[secondLesonIndex] = swapFirst;
-                        schedule.Insert(secondLesonIndex + 1, swapFirst + "-Exercises");
+                        }
+                        else if (!schedule.Contains(input[1] + "-Exercise") && schedule.Contains(input[2] + "-Exercise"))
+                        {
+                            Swap(firstIndex, secondIndex, schedule);
+                            schedule.RemoveAt(secondIndex + 1);
+
+                            if (firstIndex + 1 >= schedule.Count)
+                            {
+                                schedule.Add(input[2] + "-Exercise");
+                            }
+                            else
+                            {
+                                schedule.Insert(firstIndex + 1, input[2] + "-Exercise");
+                            }
+                        }
+                        else if (schedule.Contains(input[1] + "-Exercise") && !schedule.Contains(input[2] + "-Exercise"))
+                        {
+                            Swap(firstIndex, secondIndex, schedule);
+                            schedule.RemoveAt(firstIndex + 1);
+
+                            if (secondIndex + 1 >= schedule.Count)
+                            {
+                                schedule.Add(input[1] + "-Exercise");
+                            }
+                            else
+                            {
+                                schedule.Insert(secondIndex + 1, input[1] + "-Exercise");
+                            }
+                        }
+
+
+
                     }
                 }
             }
-        }        
+        }
+
+        static void Swap(int index1, int index2, List<string> list)
+        {
+            string firstString = list[index1];
+            string secondString = list[index2];
+
+            list[index1] = secondString;
+            list[index2] = firstString;
+        }
     }
 }
