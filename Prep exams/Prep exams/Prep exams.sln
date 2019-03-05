@@ -29,6 +29,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Google Seaches", "Google Se
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chat Logger", "Chat Logger\Chat Logger.csproj", "{1D8C3F47-4E22-4EBC-8598-A6B146F2BD21}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hogswatch", "Hogswatch\Hogswatch.csproj", "{14A01CE6-4743-4262-A620-FA3215E66630}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Grains of Sand", "Grains of Sand\Grains of Sand.csproj", "{CD5EB796-8599-4274-89DA-4E7E7E27EFCE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -87,6 +91,14 @@ Global
 		{1D8C3F47-4E22-4EBC-8598-A6B146F2BD21}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1D8C3F47-4E22-4EBC-8598-A6B146F2BD21}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1D8C3F47-4E22-4EBC-8598-A6B146F2BD21}.Release|Any CPU.Build.0 = Release|Any CPU
+		{14A01CE6-4743-4262-A620-FA3215E66630}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14A01CE6-4743-4262-A620-FA3215E66630}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14A01CE6-4743-4262-A620-FA3215E66630}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14A01CE6-4743-4262-A620-FA3215E66630}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CD5EB796-8599-4274-89DA-4E7E7E27EFCE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD5EB796-8599-4274-89DA-4E7E7E27EFCE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD5EB796-8599-4274-89DA-4E7E7E27EFCE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD5EB796-8599-4274-89DA-4E7E7E27EFCE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
