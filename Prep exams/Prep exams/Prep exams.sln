@@ -15,11 +15,19 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Santa's List", "Santa's Lis
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Present Delivery", "Present Delivery\Present Delivery.csproj", "{8A5A5B19-6013-499D-A01A-20B57DC4934F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Party Profit", "Party Profit\Party Profit.csproj", "{3330D957-BB92-41C7-8756-478FB71FEB1B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Party Profit", "Party Profit\Party Profit.csproj", "{3330D957-BB92-41C7-8756-478FB71FEB1B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dungeonest Dark", "Dungeonest Dark\Dungeonest Dark.csproj", "{2DA94B12-4034-4DDA-8C9B-269BA0E1C42F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dungeonest Dark", "Dungeonest Dark\Dungeonest Dark.csproj", "{2DA94B12-4034-4DDA-8C9B-269BA0E1C42F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Quests Journal", "Quests Journal\Quests Journal.csproj", "{AD9798AC-4169-461E-9077-88EE7210C779}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Quests Journal", "Quests Journal\Quests Journal.csproj", "{AD9798AC-4169-461E-9077-88EE7210C779}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sweet Dessert", "Sweet Dessert\Sweet Dessert.csproj", "{E020EDB9-7EFC-4422-BDD1-7F5D3A261691}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Array Modifier", "Array Modifier\Array Modifier.csproj", "{4914C5EC-FDE8-40B2-92B4-B5A4755610BB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Google Seaches", "Google Seaches\Google Seaches.csproj", "{A8163F2A-1C4B-45DD-A526-59DBB85D8E1A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chat Logger", "Chat Logger\Chat Logger.csproj", "{1D8C3F47-4E22-4EBC-8598-A6B146F2BD21}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -63,6 +71,22 @@ Global
 		{AD9798AC-4169-461E-9077-88EE7210C779}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AD9798AC-4169-461E-9077-88EE7210C779}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AD9798AC-4169-461E-9077-88EE7210C779}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E020EDB9-7EFC-4422-BDD1-7F5D3A261691}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E020EDB9-7EFC-4422-BDD1-7F5D3A261691}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E020EDB9-7EFC-4422-BDD1-7F5D3A261691}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E020EDB9-7EFC-4422-BDD1-7F5D3A261691}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4914C5EC-FDE8-40B2-92B4-B5A4755610BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4914C5EC-FDE8-40B2-92B4-B5A4755610BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4914C5EC-FDE8-40B2-92B4-B5A4755610BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4914C5EC-FDE8-40B2-92B4-B5A4755610BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A8163F2A-1C4B-45DD-A526-59DBB85D8E1A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8163F2A-1C4B-45DD-A526-59DBB85D8E1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8163F2A-1C4B-45DD-A526-59DBB85D8E1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8163F2A-1C4B-45DD-A526-59DBB85D8E1A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1D8C3F47-4E22-4EBC-8598-A6B146F2BD21}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D8C3F47-4E22-4EBC-8598-A6B146F2BD21}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D8C3F47-4E22-4EBC-8598-A6B146F2BD21}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D8C3F47-4E22-4EBC-8598-A6B146F2BD21}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
