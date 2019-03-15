@@ -5,31 +5,33 @@ VisualStudioVersion = 15.0.28307.421
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Count Real Numbers", "Count Real Numbers\Count Real Numbers.csproj", "{691D4CC4-46A0-4758-AE75-00B18108BB4B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Word Synonyms", "Word Synonyms\Word Synonyms.csproj", "{859E9744-778E-4E72-8566-D68BCD7E487D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Word Synonyms", "Word Synonyms\Word Synonyms.csproj", "{859E9744-778E-4E72-8566-D68BCD7E487D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Odd Occurrences", "Odd Occurrences\Odd Occurrences.csproj", "{79C93D74-1233-49ED-B9D1-00487B859E71}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Odd Occurrences", "Odd Occurrences\Odd Occurrences.csproj", "{79C93D74-1233-49ED-B9D1-00487B859E71}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Largest 3 Numbers", "Largest 3 Numbers\Largest 3 Numbers.csproj", "{CBE179BA-AB64-473B-98F0-2C54441C7AEF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Largest 3 Numbers", "Largest 3 Numbers\Largest 3 Numbers.csproj", "{CBE179BA-AB64-473B-98F0-2C54441C7AEF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Word Filter", "Word Filter\Word Filter.csproj", "{A84C2692-DA17-4CAE-A13C-2A2920465EC7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Word Filter", "Word Filter\Word Filter.csproj", "{A84C2692-DA17-4CAE-A13C-2A2920465EC7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Count Chars in a String", "Count Chars in a String\Count Chars in a String.csproj", "{DD1D6461-E03A-4EA0-8FB4-05D4174E65D8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Count Chars in a String", "Count Chars in a String\Count Chars in a String.csproj", "{DD1D6461-E03A-4EA0-8FB4-05D4174E65D8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "A Miner Task", "A Miner Task\A Miner Task.csproj", "{3D62F051-6317-4F13-BEAF-6E92717F56B0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "A Miner Task", "A Miner Task\A Miner Task.csproj", "{3D62F051-6317-4F13-BEAF-6E92717F56B0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Legendary Farming", "Legendary Farming\Legendary Farming.csproj", "{6B2A5459-8369-431F-9ABB-8760EB4578FD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Legendary Farming", "Legendary Farming\Legendary Farming.csproj", "{6B2A5459-8369-431F-9ABB-8760EB4578FD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Orders", "Orders\Orders.csproj", "{00C4E29A-3B1D-4220-88BC-F2E20F5B1315}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Orders", "Orders\Orders.csproj", "{00C4E29A-3B1D-4220-88BC-F2E20F5B1315}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SoftUni Parking", "SoftUni Parking\SoftUni Parking.csproj", "{D0ABCC9D-2883-4C80-9B0A-B08ADFDC2BA1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SoftUni Parking", "SoftUni Parking\SoftUni Parking.csproj", "{D0ABCC9D-2883-4C80-9B0A-B08ADFDC2BA1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Courses", "Courses\Courses.csproj", "{19E6F8B2-5828-4BD5-99B1-3B6874F78C4A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Courses", "Courses\Courses.csproj", "{19E6F8B2-5828-4BD5-99B1-3B6874F78C4A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Student Academy", "Student Academy\Student Academy.csproj", "{18789DC2-61C8-42B6-9697-5C7D1607431F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Student Academy", "Student Academy\Student Academy.csproj", "{18789DC2-61C8-42B6-9697-5C7D1607431F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Company Users", "Company Users\Company Users.csproj", "{5777098A-9ED5-4117-B11A-207F7EE5C971}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Company Users", "Company Users\Company Users.csproj", "{5777098A-9ED5-4117-B11A-207F7EE5C971}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ForceBook", "ForceBook\ForceBook.csproj", "{855EB314-9CB8-4594-8DFE-43CB358C93C0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ForceBook", "ForceBook\ForceBook.csproj", "{855EB314-9CB8-4594-8DFE-43CB358C93C0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SoftUni Exam Results", "SoftUni Exam Results\SoftUni Exam Results.csproj", "{68B56E43-7277-462F-899C-CEFD88010941}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -93,6 +95,10 @@ Global
 		{855EB314-9CB8-4594-8DFE-43CB358C93C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{855EB314-9CB8-4594-8DFE-43CB358C93C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{855EB314-9CB8-4594-8DFE-43CB358C93C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{68B56E43-7277-462F-899C-CEFD88010941}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68B56E43-7277-462F-899C-CEFD88010941}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68B56E43-7277-462F-899C-CEFD88010941}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68B56E43-7277-462F-899C-CEFD88010941}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -8,111 +8,64 @@ namespace ForceBook
     {
         static void Main(string[] args)
         {
-            var book = new Dictionary<string, List<string>>();
+            var book = new Dictionary<string, string>();
 
-            string input = Console.ReadLine();
-
-            while (input != "Lumpawaroo")
+            while (true)
             {
-                bool firstcase = false;
-                bool secondcase = false;
-                for (int i = 0; i < input.Length; i++)
+                string input = Console.ReadLine();
+                if (input == "Lumpawaroo")
                 {
-                    if (input[i] == '|')
+                    break;
+                }
+
+                if (input.Contains('|'))
+                {
+                    string[] command = input.Split(" | ");
+
+                    string user = command[1];
+                    string side = command[0];
+
+                    if (!book.ContainsKey(user))
                     {
-                        firstcase = true;
-                    }
-                    else if (input[i] == '>')
-                    {
-                        secondcase = true;
+                        book.Add(user, side);
                     }
                 }
-                if (firstcase)
+                else if (input.Contains("->"))
                 {
-                    string side = input.Split(" | ")[0];
-                    string user = input.Split(" | ")[1];
+                    string[] command = input.Split(" -> ");
 
-                    bool exists = false;
+                    string user = command[0];
+                    string side = command[1];
 
-                    foreach (var item in book)
+                    if (book.ContainsKey(user))
                     {
-                        foreach (var j in item.Value)
-                        {
-                            if (j == user)
-                            {
-                                exists = true;
-                            }
-                        }
-                    }
-                    if (!exists)
-                    {
-                        if (!book.ContainsKey(side))
-                        {
-                            book.Add(side, new List<string>());
-                        }
-                        book[side].Add(user);                        
-                    }
-                }
-                else if (secondcase)
-                {
-                    string side = input.Split(" -> ")[1];
-                    string user = input.Split(" -> ")[0];
-
-                    bool exists = false;
-                    string tempSide = string.Empty;
-
-                    foreach (var item in book)
-                    {
-                        foreach (var j in item.Value)
-                        {
-                            if (j == user)
-                            {
-                                exists = true;
-                                tempSide = item.Key;
-                            }
-                        }
-                    }
-
-                    if (!exists)
-                    {
-                        if (!book.ContainsKey(side))
-                        {
-                            book.Add(side, new List<string> { user });
-                        }
-                        book[side].Add(user);
-
-                        Console.WriteLine($"{user} joins the {side} side!");
+                        book[user] = side;
                     }
                     else
                     {
-                        book[tempSide].Remove(user);
-                        book[side].Add(user);
-
-                        Console.WriteLine($"{user} joins the {side} side!");
+                        book.Add(user, side);
                     }
+
+                    Console.WriteLine($"{user} joins the {side} side!");
                 }
-                input = Console.ReadLine();
             }
 
-            var orderedSides = book.OrderByDescending(n => n.Value.Count).ThenBy(n => n.Key);
-            var orderedUsers = new Dictionary<string, List<string>>();
+            var bookSorted = book
+                .GroupBy(n => n.Value)
+                .OrderByDescending(n => n.Count())
+                .ThenBy(n => n.Key);
 
-            foreach (var item in orderedSides)
+            foreach (var side in bookSorted)
             {
-                orderedUsers.Add(item.Key, item.Value.OrderBy(n => n).ToList());
-            }
 
-            foreach (var item in orderedUsers)
-            {
-                if (item.Value.Count>0)
+                Console.WriteLine($"Side: {side.Key}, Members: {side.Count()}");
+
+                foreach (var user in side.OrderBy(n => n.Key))
                 {
-                    Console.WriteLine($"Side: {item.Key}, Members: {item.Value.Count}");
-                    foreach (var j in item.Value)
-                    {
-                        Console.WriteLine($"! {j}");
-                    }
+                    Console.WriteLine($"! {user.Key}");
                 }
             }
+
         }
     }
 }
