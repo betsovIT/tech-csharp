@@ -9,6 +9,7 @@ namespace Snowwhite
         static void Main(string[] args)
         {
             var dwarfs = new Dictionary<string, Dwarf>();
+            var dwarfsHatColors = new Dictionary<string, int>();
 
             while (true)
             {
@@ -24,10 +25,18 @@ namespace Snowwhite
 
                 if (!dwarfs.ContainsKey(name+hat))
                 {
-                    dwarfs.Add(name + hat, new Dwarf());
-                    dwarfs[name + hat].Name = name;
-                    dwarfs[name + hat].HatColor = hat;
-                    dwarfs[name + hat].Physics = physics;
+                    dwarfs.Add(name + hat, new Dwarf
+                    {
+                        Name = name,
+                        HatColor = hat,
+                        Physics = physics
+                    });
+
+                    if (!dwarfsHatColors.ContainsKey(hat))
+                    {
+                        dwarfsHatColors.Add(hat, 0);
+                    }
+                    dwarfsHatColors[hat]++;
                 }
                 else
                 {
@@ -38,7 +47,9 @@ namespace Snowwhite
                 }
             }
 
-            var sortedDwarfs = dwarfs.OrderByDescending(n => n.Value.Physics).ThenByDescending(n => n.Value.HatColor.Count());
+            var sortedDwarfs = dwarfs
+                .OrderByDescending(n => n.Value.Physics)
+                .ThenByDescending(n => dwarfsHatColors[n.Value.HatColor]);            
 
             foreach (var item in sortedDwarfs)
             {
