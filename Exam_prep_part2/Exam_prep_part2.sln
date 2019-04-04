@@ -7,9 +7,17 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Vapor Winter Sale", "Vapor 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Activation Keys", "Activation Keys\Activation Keys.csproj", "{25FE8858-0EC4-42B7-A4B1-7938C824731B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Concert", "Concert\Concert.csproj", "{2B351FE8-179B-46A3-8157-D9238AC6D42A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Concert", "Concert\Concert.csproj", "{2B351FE8-179B-46A3-8157-D9238AC6D42A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Song Encryption", "Song Encryption\Song Encryption.csproj", "{7FE6D168-0895-412F-BEB9-519A36485F1D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Song Encryption", "Song Encryption\Song Encryption.csproj", "{7FE6D168-0895-412F-BEB9-519A36485F1D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Santa’s Secret Helper", "Santa’s Secret Helper\Santa’s Secret Helper.csproj", "{7800CCD6-72B1-422C-AC0B-421548AADEB8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Santa's New List", "Santa's New List\Santa's New List.csproj", "{67934D97-4ABC-4D85-8DEF-F1A72E8C9620}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chore Wars", "Chore Wars\Chore Wars.csproj", "{FEFAD869-C696-45C0-9835-A96745021FB8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MeTube Statistics", "MeTube Statistics\MeTube Statistics.csproj", "{3DE94EE4-8541-4F3F-9F40-B41FB1E5AF40}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +41,22 @@ Global
 		{7FE6D168-0895-412F-BEB9-519A36485F1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7FE6D168-0895-412F-BEB9-519A36485F1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7FE6D168-0895-412F-BEB9-519A36485F1D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7800CCD6-72B1-422C-AC0B-421548AADEB8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7800CCD6-72B1-422C-AC0B-421548AADEB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7800CCD6-72B1-422C-AC0B-421548AADEB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7800CCD6-72B1-422C-AC0B-421548AADEB8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{67934D97-4ABC-4D85-8DEF-F1A72E8C9620}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67934D97-4ABC-4D85-8DEF-F1A72E8C9620}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67934D97-4ABC-4D85-8DEF-F1A72E8C9620}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67934D97-4ABC-4D85-8DEF-F1A72E8C9620}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FEFAD869-C696-45C0-9835-A96745021FB8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FEFAD869-C696-45C0-9835-A96745021FB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FEFAD869-C696-45C0-9835-A96745021FB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FEFAD869-C696-45C0-9835-A96745021FB8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3DE94EE4-8541-4F3F-9F40-B41FB1E5AF40}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3DE94EE4-8541-4F3F-9F40-B41FB1E5AF40}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3DE94EE4-8541-4F3F-9F40-B41FB1E5AF40}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3DE94EE4-8541-4F3F-9F40-B41FB1E5AF40}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
