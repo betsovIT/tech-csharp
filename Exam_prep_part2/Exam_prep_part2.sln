@@ -23,9 +23,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Emoji Sumator", "Emoji Suma
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "International SoftUniada", "International SoftUniada\International SoftUniada.csproj", "{FD3C2AB8-4256-45C9-8549-CD5A4612A5A6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Post Office", "Post Office\Post Office.csproj", "{0BE739A0-9AD3-417D-B200-99701634EFD6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Post Office", "Post Office\Post Office.csproj", "{0BE739A0-9AD3-417D-B200-99701634EFD6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Iron Girder", "Iron Girder\Iron Girder.csproj", "{623132D1-A91E-42FE-9DB9-E1D69DAD8A7E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Iron Girder", "Iron Girder\Iron Girder.csproj", "{623132D1-A91E-42FE-9DB9-E1D69DAD8A7E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SoftUni Bar Income", "SoftUni Bar Income\SoftUni Bar Income.csproj", "{8516A15C-3C0A-4BBA-9279-C5ED7C8397AF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SoftUni Exam Results", "SoftUni Exam Results\SoftUni Exam Results.csproj", "{01C09703-1763-4151-8036-529D7E9FF926}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -81,6 +85,14 @@ Global
 		{623132D1-A91E-42FE-9DB9-E1D69DAD8A7E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{623132D1-A91E-42FE-9DB9-E1D69DAD8A7E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{623132D1-A91E-42FE-9DB9-E1D69DAD8A7E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8516A15C-3C0A-4BBA-9279-C5ED7C8397AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8516A15C-3C0A-4BBA-9279-C5ED7C8397AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8516A15C-3C0A-4BBA-9279-C5ED7C8397AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8516A15C-3C0A-4BBA-9279-C5ED7C8397AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{01C09703-1763-4151-8036-529D7E9FF926}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01C09703-1763-4151-8036-529D7E9FF926}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01C09703-1763-4151-8036-529D7E9FF926}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01C09703-1763-4151-8036-529D7E9FF926}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
