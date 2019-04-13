@@ -19,9 +19,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Chore Wars", "Chore Wars\Ch
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MeTube Statistics", "MeTube Statistics\MeTube Statistics.csproj", "{3DE94EE4-8541-4F3F-9F40-B41FB1E5AF40}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Emoji Sumator", "Emoji Sumator\Emoji Sumator.csproj", "{B655CF3B-69D7-4AE9-8851-EF6B37B9499F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Emoji Sumator", "Emoji Sumator\Emoji Sumator.csproj", "{B655CF3B-69D7-4AE9-8851-EF6B37B9499F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "International SoftUniada", "International SoftUniada\International SoftUniada.csproj", "{FD3C2AB8-4256-45C9-8549-CD5A4612A5A6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "International SoftUniada", "International SoftUniada\International SoftUniada.csproj", "{FD3C2AB8-4256-45C9-8549-CD5A4612A5A6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Post Office", "Post Office\Post Office.csproj", "{0BE739A0-9AD3-417D-B200-99701634EFD6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Iron Girder", "Iron Girder\Iron Girder.csproj", "{623132D1-A91E-42FE-9DB9-E1D69DAD8A7E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -69,6 +73,14 @@ Global
 		{FD3C2AB8-4256-45C9-8549-CD5A4612A5A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FD3C2AB8-4256-45C9-8549-CD5A4612A5A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FD3C2AB8-4256-45C9-8549-CD5A4612A5A6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0BE739A0-9AD3-417D-B200-99701634EFD6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0BE739A0-9AD3-417D-B200-99701634EFD6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0BE739A0-9AD3-417D-B200-99701634EFD6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0BE739A0-9AD3-417D-B200-99701634EFD6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{623132D1-A91E-42FE-9DB9-E1D69DAD8A7E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{623132D1-A91E-42FE-9DB9-E1D69DAD8A7E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{623132D1-A91E-42FE-9DB9-E1D69DAD8A7E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{623132D1-A91E-42FE-9DB9-E1D69DAD8A7E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
